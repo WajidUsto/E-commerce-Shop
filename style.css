@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif
 }
 nav{
     padding: 20px;
@@ -11,4 +12,70 @@ nav{
     color: white;
     font-size: 20px;
     font-family: sans-serif
+}
+/* Main Section Started */
+/* Main Section Started */
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.login-outside{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF6F6;
+    width: 26rem;
+    height: 23rem;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 1px 3px #393535;
+}
+h4{
+    font-size: 16px;
+}
+.login-inputs{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+input{
+    padding: 20px 100px 20px 11px;
+    border: 1px solid #A1A1A1;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Media Queries */
+
+/* Nav */
+@media (max-width:880px) {
+    .logo-h1{
+        text-align: center;
+    }
 }
