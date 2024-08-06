@@ -53,7 +53,6 @@ nav{
     left: 23.5rem;
     bottom: 72px;
 }
-
 .input-file{
     padding: 20px 121px 20px 14px;
     background-color: #4C68FF;
@@ -63,6 +62,11 @@ nav{
     color: white;
     font-weight: 700;
 }
+.main-text h1{
+    color: white;
+    text-align: center;
+}
+
 
 
 

@@ -28,11 +28,12 @@ nav{
     justify-content: center;
     background-color: #FFF6F6;
     width: 37rem;
-    height: 29rem;
+    height: 38rem;
     align-items: center;
     border-radius: 30px;
     box-shadow: 0px 0px 4px #393535;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 h4{
     font-size: 16px;
@@ -42,14 +43,17 @@ h4{
     gap: 30px;
     flex-direction: column;
 }
-/* input{
+.input1::placeholder{
+    color: #3f9586;
+}
+.input1{
     padding: 20px 250px 20px 23px;
     text-align: left;
     border: 1px solid #A1A1A1;
     border-radius: 8px;
     background: none;
     font-weight: 700;
-} */
+}
 .name-input{
     padding: 20px 250px 20px 23px;
     text-align: left;
@@ -83,13 +87,7 @@ h4{
 }
 
 .input-file{
-    padding: 20px 121px 20px 14px;
-    background-color: #4C68FF;
-    border-top-left-radius: 11px;
-    border-bottom-left-radius: 11px;
-    border: none;
-    color: white;
-    font-weight: 700;
+    
 }
 .btn-2{
     padding: 20px 103px 20px 19px;

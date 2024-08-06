@@ -46,6 +46,7 @@ input{
     padding: 20px 100px 20px 11px;
     border: 1px solid #A1A1A1;
     border-radius: 8px;
+    background: none;
 }
 .main-btn button{
     margin-top: 21px;
@@ -66,6 +67,10 @@ input{
 }
 .register{
     margin-top: 15px;
+}
+::placeholder{
+    color: #A1A1A1;
+    font-weight: 700;
 }
 
 
