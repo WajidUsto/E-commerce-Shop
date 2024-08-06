@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+/* Nav-Bar Started */
+/* Nav-Bar Started */
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #4c68ff;
+    z-index: 5;
+}
+.nav-icons img{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    cursor: pointer;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-icon-img1{
+    width: 30px;
+}
+.nav-icon-img2{
+    width: 40px;
+}
+.logo-h1{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    width: 10px; 
+    background-color: #A1A1A1;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px; 
+    background-color: #4C68FF;
+}
+/* Nav-Bar Ended */
+/* Nav-Bar Ended */
+
+/* Main Section Started */
+/* Main Section Started */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Media Queries */
+
+/* Nav */
+@media (max-width:880px) {
+    .logo-h1{
+        text-align: center;
+    }
+}
+/* Nav End */
+/* Nav End */
+
+/* Main Section Started */
+/* Main Section Started */
