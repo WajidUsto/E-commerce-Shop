@@ -20,6 +20,14 @@ nav{
 a{
     text-decoration: none;
 }
+::-webkit-scrollbar{
+    width: 10px; 
+    background-color: #A1A1A1;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px; 
+    background-color: #4C68FF;
+}
 /* Main Section Started */
 /* Main Section Started */
 #main{
