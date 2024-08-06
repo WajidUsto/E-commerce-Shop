@@ -66,10 +66,85 @@ a{
 /* Main Section Started */
 
 
+.main-section-outside{
+    padding: 30px;
+}
+.main-section-inside{
+    margin-top: 82px;
+    background-color: #FEF5F5;
+    height: 40rem;
+    padding: 0 67px;
+    border-radius: 10px;
+}
+.search-section {
+    padding-top: 40px;
+    text-align: center;
+}
+.search-section input{
+    padding: 16px 76% 15px 52px;
+    background: none;
+    border: 1px solid #a3a3a3;
+    border-radius: 6px;
+}
+.main-section-h1{
+    padding-top: 30px;
+}
 
-
-
-
+/* Card Section Started */
+/* Card Section Started */
+.main-cards{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.card{
+    width: 305px;
+    height: 20rem;
+    border-radius: 17px;
+    border: 1px solid #A1A1A1;
+    
+}
+.card-text{
+    padding: 20px;
+}
+.card-img img{
+    width: 19rem;
+}
+.card-p{
+    padding-right: 39px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A1A1A1;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text2{
+    display: flex;
+    padding-top: 30px;
+    gap: 37px;
+    align-items: center;
+}
+.card-price h3{
+    color: #494949;
+}
+.card-head h4{
+    color: #494949;
+}
+.card-btn button{
+    padding: 7px 20px;
+    border: none;
+    background-color: #F000B8;
+    border-radius: 7px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
 
 
 
