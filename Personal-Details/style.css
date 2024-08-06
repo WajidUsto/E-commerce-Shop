@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+nav{
+    padding: 20px;
+    background-color: #4c68ff;
+}
+.logo-h1{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    cursor: pointer;
+}
+/* Main Section Started */
+/* Main Section Started */
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 4rem;
+}
+.main-outside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #4C68FF;
+    width: 50rem;
+    height: 17rem;
+
+}
+.main-imgs1 img{
+    width: 95px;
+    position: relative;
+    top: 5px;
+    left: 22rem;
+}
+.main-imgs2 img{
+    width: 51px;
+    position: relative;
+    left: 23.5rem;
+    bottom: 72px;
+}
+
+.input-file{
+    padding: 20px 121px 20px 14px;
+    background-color: #4C68FF;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+/* Media Queries */
+
+/* Nav */
+@media (max-width:880px) {
+    .logo-h1{
+        text-align: center;
+    }
+    .main-outside{
+        width: 100%;
+    }
+    #main {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .main-text h1{
+        font-size: 30px;
+    }
+}
+/* Nav End */
+/* Nav End */
+
+/* Main Section Started */
+/* Main Section Started */
+
+@media (max-width:606px) {
+    .main-imgs1 img{
+        left: 14rem;
+    }
+    .main-imgs2 img{
+        left: 15.5rem;
+    }
+    .main-text h1{
+        font-size: 27px;
+    }
+}
+@media (max-width:544px) {
+    .main-imgs1 img{
+        left: 12rem;
+    }
+    .main-imgs2 img{
+        left: 13.5rem;
+    }
+    .main-text h1{
+        font-size: 25px;
+    }
+    .main-outside{
+        height: 15rem;
+    }
+}
+@media (max-width:398px) {
+    .login-inputs{
+        align-items: center;
+    }
+    input{
+        padding: 19px 41px 15px 27px;
+        text-align: center;
+    }
+    .register a{
+        font-size: 14px;
+    }
+    .main-text h1{
+        font-size: 24px;
+    }
+    .main-outside{
+        height: 15rem;
+    }
+}
+@media (max-width:376px) {
+    .main-imgs1 img{
+        width: 76px;
+        position: relative;
+        top: -13px;
+        left: 115px;
+    }
+    .main-imgs2 img{
+        width: 36px;
+        position: relative;
+        left: 135px;
+    }
+    .main-text h1{
+        font-size: 23px;
+    }
+    .main-outside{
+        height: 14rem;
+    }
+}
+
+
