@@ -5,13 +5,20 @@
     font-family: sans-serif
 }
 nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding: 20px;
     background-color: #4c68ff;
+    z-index: 5;
 }
 .logo-h1{
     color: white;
     font-size: 20px;
-    font-family: sans-serif
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
 }
 /* Main Section Started */
 /* Main Section Started */
@@ -19,7 +26,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-left: 20px;
     margin-right: 20px;
 }

@@ -9,7 +9,7 @@
 <body>
     <nav>
         <div class="logo">
-            <h1 class="logo-h1">E-Commerce Shop</h1>
+            <a href="../index.html"><h1 class="logo-h1">E-Commerce Shop</h1></a>
             <img src="../Assets/nav-icon.png" alt="">
         </div>
     </nav>
@@ -20,16 +20,35 @@
             </div>
         <div class="main-outside">
             <div class=" main-imgs1">
-                <img src="../Assets/pic-frame.png" alt="">
+                <input type="file" id="upload-btn">
+                <label for="upload-btn"></label>
+                </label>
+                <img src="../Assets/pic-frame.png" alt="" id="upload-btn">
+                
             </div>
             <div class="main-imgs2">
-                <img src="../Assets/frame-plus.png" alt="">
+                <input type="file" id="upload-btn">
+                <label for="upload-btn"></label>
+                </label>
+                <img src="../Assets/frame-plus.png" alt="" id="upload-btn">
             </div>
             <div class="main-text">
                 <h1>Upload Product Photo</h1>
             </div>
         </div>
     </div>
+    <div class="main-inputs">
+        <input class="name-input" type="text" size="20" min="10" max="40" placeholder="Product Title" required>
+        <input class="name-input" type="text" size="20" min="10" max="40" placeholder="PD    Product Discription" required>
+        <input class="name-input" type="text" size="20" min="10" max="40" placeholder="RS    Enter Price" required>
+        <input class="name-input" type="text" size="20" min="10" max="40" placeholder="Enter Your Name" required>
+        <input class="name-input" type="text" size="20" min="10" max="40" placeholder="Enter Your Number" required>
+    </div>
     </main>
+    <footer>
+        <div class="footer-btn">
+            <a href=""><button>POST NOW</button></a>
+        </div>
+    </footer>
 </body>
 </html>
