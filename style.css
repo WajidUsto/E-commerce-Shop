@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 20px;
+    background-color: #4c68ff;
+}
+.logo-h1{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif
+}
