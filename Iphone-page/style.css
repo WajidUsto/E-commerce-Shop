@@ -104,6 +104,7 @@ a{
 
 .card-img img{
     width: 80%;
+    cursor: pointer;
 }
 .card-outer{
     display: flex;
@@ -133,6 +134,7 @@ a{
     display: flex;
     align-items: flex-start;
     gap: 10px;
+    cursor: pointer;
 }
 .card-inner{
     padding: 20px 0;
@@ -140,11 +142,12 @@ a{
 .inner-card-outer{
     display: flex;
     background-color: #4C68FF;
-    padding: 20px;
+    padding: 14px 12px;
     margin: 20px 0;
     border-radius: 20px;
 }
 .inner-card-outer-img1 img{
+    cursor: pointer;
     width: 77px;
     height: 77px;
 }
@@ -153,8 +156,9 @@ a{
 }
 .text-1{
     display: flex;
-    gap: 14rem;
+    gap: 12rem;
     color: white;
+    cursor: pointer;
 }
 .text2{
     display: flex;
@@ -173,11 +177,28 @@ a{
     display: flex;
     align-items: center;
     gap: 7px;
-    padding: 8px 17px;
+    padding: 9px 17px;
     background-color: #2A2E37;
     border: none;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
+}
+.inner-card-btn-2{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0 17px;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.inner-card-btn-2 img{
+    width: 23px;
+    padding-top: 5px;
 }
 
 
