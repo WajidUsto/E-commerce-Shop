@@ -109,9 +109,33 @@ a{
     display: flex;
     border: 1px solid #A3A1A1;
     border-radius: 10px;
+    margin: 0 10%;
+}
+.card-text-1{
+    display: flex;
+    gap: 17rem;
+}
+.card-text-2 h4 , p{
+    color: #2A2E37;
+    font-size: 18px;
+}
+.card-text-2 p{
+    color: #2A2E37;
+    font-size: 18px;
+}
+.card-text-2{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card-text-1-icons{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
 }
 .card-inner{
-    padding: 30px;
+    padding: 20px;
 }
 
 
