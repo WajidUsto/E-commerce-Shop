@@ -95,8 +95,24 @@ a{
 .main-section-h1{
     padding-top: 30px;
 }
+.card-h1 h1{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/* Inner Card Section Started */
+/* Inner Card Section Started */
 
-
+.card-img img{
+    width: 100%;
+}
+.card-outer{
+    display: flex;
+    border: 1px solid #A3A1A1;
+    border-radius: 10px;
+}
+.card-inner{
+    padding: 30px;
+}
 
 
 
