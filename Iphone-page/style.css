@@ -103,18 +103,17 @@ a{
 /* Inner Card Section Started */
 
 .card-img img{
-    width: 80%;
     cursor: pointer;
 }
 .card-outer{
     display: flex;
     border: 1px solid #A3A1A1;
     border-radius: 20px;
-    margin: 0 10%;
+    width: 59rem;
 }
 .card-text-1{
     display: flex;
-    gap: 17rem;
+    gap: 14rem;
 }
 .card-text-2 h4 , p{
     color: #2A2E37;
@@ -137,14 +136,14 @@ a{
     cursor: pointer;
 }
 .card-inner{
-    padding: 20px 0;
+    padding: 40px;
 }
 .inner-card-outer{
     display: flex;
     background-color: #4C68FF;
     padding: 14px 12px;
-    margin: 20px 0;
     border-radius: 20px;
+    margin-top: 52px;
 }
 .inner-card-outer-img1 img{
     cursor: pointer;
@@ -163,6 +162,9 @@ a{
 .text2{
     display: flex;
     gap: 2px;
+    font-size: 14px;
+    color: #D9D9D9;
+    align-items: center;
 }
 .inner-card-text-2 p{
     font-size: 15px;
@@ -200,8 +202,30 @@ a{
     width: 23px;
     padding-top: 5px;
 }
-
-
+.card-text-3{
+    display: flex;
+    margin-top: 73px;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-text-3-btn button{
+    padding: 14px 22px;
+    background-color: #570DF8;
+    border: none;
+    border-radius: 5px;
+    font-weight: 100;
+    cursor: pointer;
+    color: white;
+}
+.card-text-3-text{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.card-text-3-text p{
+    font-size: 14px;
+}
 
 
 
@@ -232,9 +256,22 @@ a{
 /* Media Queries */
 
 /* Nav */
+@media (max-width:1600px) {
+    .card-outer{
+        margin: 0px 12rem;
+    }
+}
+@media (max-width:1326px) {
+    .card-outer{
+        margin: 0px 5rem;
+    }
+}
 @media (max-width:1256px) {
     .search-section-img2{
         display: none;
+    }
+    .card-img img{
+        width: 22rem;
     }
 }
 @media (max-width:1104px) {
