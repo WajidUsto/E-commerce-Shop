@@ -147,8 +147,18 @@ a{
 .inner-card-outer img{
     width: 77px;
 }
-
-
+.inner-card{
+    padding-left: 14px;
+}
+.text-1{
+    display: flex;
+    gap: 14rem;
+    color: white;
+}
+.inner-card-text-2 p{
+    font-size: 15px;
+    color: #D9D9D9;
+}
 
 
 
