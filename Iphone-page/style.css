@@ -144,8 +144,9 @@ a{
     margin: 20px 0;
     border-radius: 20px;
 }
-.inner-card-outer img{
+.inner-card-outer-img1 img{
     width: 77px;
+    height: 77px;
 }
 .inner-card{
     padding-left: 14px;
@@ -155,13 +156,29 @@ a{
     gap: 14rem;
     color: white;
 }
+.text2{
+    display: flex;
+    gap: 2px;
+}
 .inner-card-text-2 p{
     font-size: 15px;
     color: #D9D9D9;
 }
-
-
-
+.inner-card-btns{
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+.inner-card-btn-1{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 17px;
+    background-color: #2A2E37;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
 
 
 
