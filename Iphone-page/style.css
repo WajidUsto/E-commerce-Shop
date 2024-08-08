@@ -274,9 +274,50 @@ a{
         width: 22rem;
     }
 }
+@media (max-width:1168px) {
+    .card-outer{
+        margin: 0px 1rem;
+        width: 55rem;
+    }
+    .card-inner {
+        padding: 30px;
+    }
+    .card-img img {
+        width: 22rem;
+    }
+    
+}
 @media (max-width:1104px) {
     .search-section input{
         padding: 16px 67% 15px 41px;
+    }
+}
+@media (max-width:1074px) {
+    .card-outer{
+        margin: 0px 0rem;
+        width: 53rem;
+    }
+    .card-inner {
+        padding: 30px;
+    }
+    .card-img img {
+        width: 21rem;
+    }
+    
+}
+@media (max-width:990px) {
+    .card-outer{
+        margin: 0px 0rem;
+        width: 53rem;
+    }
+    .card-inner {
+        padding: 30px;
+    }
+    .card-img img {
+        width: 21rem;
+    }
+    .inner-card-outer-img1{
+        
     }
 }
 @media (max-width:880px) {
