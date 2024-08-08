@@ -104,6 +104,8 @@ a{
 
 .card-img img{
     cursor: pointer;
+    width: 24rem;
+    height: 30.5rem;
 }
 .card-outer{
     display: flex;
@@ -397,6 +399,7 @@ a{
     }
     .card-img img {
         width: 18rem;
+        height: 25rem;
     }
     .inner-card-outer-img1{
         width: 20px;
@@ -661,7 +664,8 @@ a{
         gap: 5rem;
     }
     .card-img img {
-        width: 13rem;
+        width: 16rem;
+        height: 19rem;
     }
     .card-text-1 {
         gap: 8rem;
@@ -747,7 +751,8 @@ a{
         width: 18px;
     }
     .card-img img {
-        width: 11rem;
+        width: 15rem;
+        height: 15rem;
     }
     .card-text-1 {
         gap: 4rem;
