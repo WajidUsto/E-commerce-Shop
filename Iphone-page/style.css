@@ -110,6 +110,7 @@ a{
     border: 1px solid #A3A1A1;
     border-radius: 20px;
     width: 59rem;
+    
 }
 .card-text-1{
     display: flex;
@@ -165,6 +166,13 @@ a{
     font-size: 14px;
     color: #D9D9D9;
     align-items: center;
+}
+.main-section-inside {
+    margin-top: 82px;
+    background-color: #FEF5F5;
+    padding: 0 67px;
+    border-radius: 10px;
+    padding-bottom: 30px;
 }
 .inner-card-text-2 p{
     font-size: 15px;
@@ -261,6 +269,12 @@ a{
         margin: 0px 12rem;
     }
 }
+
+@media (max-width:1400px) {
+    .card-outer{
+        margin: 0px 8rem;
+    }
+}
 @media (max-width:1326px) {
     .card-outer{
         margin: 0px 5rem;
@@ -306,18 +320,26 @@ a{
     
 }
 @media (max-width:990px) {
-    .card-outer{
-        margin: 0px 0rem;
-        width: 53rem;
+    .card-outer {
+        width: 48rem;
+        height: 422px;
+        margin: 0px -2rem;
     }
     .card-inner {
-        padding: 30px;
+        padding: 22px;
     }
     .card-img img {
-        width: 21rem;
+        width: 18rem;
     }
     .inner-card-outer-img1{
-        
+        width: 20px;
+    }
+    .inner-card-outer-img1 {
+        width: 78px;
+        height: 78px;
+    }
+    .inner-card-outer {
+        margin-top: 22px;
     }
 }
 @media (max-width:880px) {
@@ -326,6 +348,67 @@ a{
     }
     .search-section input{
         padding: 16px 67% 15px 41px;
+    }
+    .card-outer {
+        width: 46rem;
+        height: 421px;
+        margin: 0px -2rem;
+    }
+    .card-inner {
+        padding: 22px;
+    }
+    .card-img img {
+        width: 18rem;
+    }
+    .inner-card-outer-img1{
+        width: 20px;
+    }
+    .inner-card-outer-img1 {
+        width: 66px;
+        height: 66px;
+    }
+    .inner-card-outer {
+        margin-top: 43px;
+        padding: 11px 8px;
+    }
+    .inner-card {
+        padding-left: 14px;
+    }
+    .inner-card-btn-1 , .inner-card-btn-2{
+        font-size: 10px;
+    }
+    .inner-card-btn-1 img , .inner-card-btn-2 img{
+        width: 13px;
+    }
+    .inner-card-btn-2 img{
+        width: 18px;
+    }
+    .text-1 {
+        gap: 11rem;
+    }
+    .card-img img {
+        width: 18rem;
+    }
+    .card-text-1{
+        gap: 12rem;
+    }
+    .inner-card-text-1{
+        font-size: 13px;
+    }
+    .card-text-1 h1{
+        font-size: 26px;
+        gap: 15rem;
+    }
+    .card-text-2 h4 {
+        font-size: 17px;
+    }
+    .card-text-2 p {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .card-text-3-btn button{
+        font-size: 9px;
+        padding: 15px 18px;
     }
 }
 
@@ -339,30 +422,88 @@ a{
     .main-section-h1{
         text-align: center;
     }
-}
-@media (max-width:813px) {
-    .search-section input{
-        padding: 16px 55% 15px 41px;
+    .card-h1{
+        text-align: center;
+    }
+    .card-outer {
+        display: flex;
+        flex-direction: column;
+        width: 27rem;
+        height: 53rem;
+        align-items: center;
+        margin: 0 7rem;
     }
 }
-@media (max-width:660px) {
-    .search-section input{
-        padding: 16px 57% 15px 30px;
+@media (max-width:650px) {
+    .logo-h1{
+        text-align: center;
     }
-    .card , .card-img img{
-        width: 17rem;
+    .search-section input {
+        padding: 16px 35% 15px 41px;
     }
-    .main-section-h1{
-        font-size: 25px;
+    .card-outer {
+        width: 24rem;
+        height: 830px;
+        margin: 0px -0.5rem;
     }
-    .search-section input{
-        padding: 16px 30% 15px 41px;
+    .card-inner {
+        padding: 22px;
+    }
+    .card-img img {
+        width: 15rem;
+    }
+    .inner-card-outer-img1{
+        width: 20px;
+    }
+    .inner-card-outer-img1 {
+        width: 53px;
+        height: 53px;
+    }
+    .inner-card-outer {
+        margin-top: 43px;
+        padding: 11px 8px;
+    }
+    .inner-card {
+        padding-left: 14px;
+    }
+    .inner-card-btn-1 , .inner-card-btn-2{
+        font-size: 10px;
+    }
+    .inner-card-btn-1 img , .inner-card-btn-2 img{
+        width: 13px;
+    }
+    .inner-card-btn-2 img{
+        width: 18px;
+    }
+    .text-1 {
+        gap: 7rem;
+    }
+    .card-img img {
+        width: 18rem;
+    }
+    .card-text-1{
+        gap: 9rem;
+    }
+    .inner-card-text-1{
+        font-size: 13px;
+    }
+    .card-text-1 h1{
+        font-size: 26px;
+        gap: 15rem;
+    }
+    .card-text-2 h4 {
+        font-size: 15px;
+    }
+    .card-text-2 p {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .card-text-3-btn button{
+        font-size: 9px;
+        padding: 15px 18px;
     }
 }
 @media (max-width:550px) {
-    .search-section input{
-        padding: 11px 37% 11px 25px;
-    }
     .main-section-h1{
         font-size: 23px;
     }
@@ -374,6 +515,87 @@ a{
     }
     .main-section-inside{
         padding: 0 64px;
+    }
+    .card-outer{
+        margin: 0 -39px;
+    }
+}
+@media (max-width:498px) {
+    .search-section input {
+        padding: 16px 10% 15px 41px;
+    }
+    .card-h1 h1 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 25px;
+    }
+    .card-outer {
+        width: 19rem;
+        height: 750px;
+
+        margin: 0px -0.5rem;
+    }
+    .card-inner {
+        padding: 22px;
+    }
+    .inner-card-text-2 p{
+        font-size: 10px;
+    }
+    .text2{
+        font-size: 12px;
+    }
+    .inner-card-outer-img1{
+        width: 20px;
+    }
+    .inner-card-outer-img1 {
+        width: 53px;
+        height: 53px;
+    }
+    .inner-card-outer {
+        margin-top: 43px;
+        padding: 11px 8px;
+    }
+    .inner-card {
+        padding-left: 14px;
+    }
+    .inner-card-btn-1 , .inner-card-btn-2{
+        font-size: 8px;
+    }
+    .inner-card-btn-1 img , .inner-card-btn-2 img{
+        width: 10px;
+    }
+    .inner-card-btn-2 img{
+        width: 18px;
+    }
+    .text-1 {
+        gap: 5rem;
+    }
+    .card-img img {
+        width: 13rem;
+    }
+    .card-text-1 {
+        gap: 8rem;
+    }
+    .inner-card-text-1{
+        font-size: 13px;
+    }
+    .card-text-1 h1{
+        font-size: 26px;
+        gap: 15rem;
+    }
+    .card-text-2 h4 {
+        font-size: 15px;
+    }
+    .card-text-2 p {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .card-text-3-btn button{
+        font-size: 9px;
+        padding: 15px 18px;
+    }
+    .card-text-3-text {
+        font-size: 10px;
     }
 }
 @media (max-width:430px) {
