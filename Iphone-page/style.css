@@ -532,7 +532,6 @@ a{
     .card-outer {
         width: 19rem;
         height: 750px;
-
         margin: 0px -0.5rem;
     }
     .card-inner {
@@ -612,6 +611,84 @@ a{
         padding: 0 40px;
     }
 }
+@media (max-width:420px) {
+    .card-outer {
+        width: 16rem;
+        height: 625px;
+        margin: 0px -0.5rem;
+    }
+    .inner-card-text-2 p{
+        font-size: 10px;
+    }
+    .text2{
+        font-size: 12px;
+    }
+    .text-1 {
+        gap: 2rem;
+    }
+    .inner-card-outer-img1{
+        width: 20px;
+    }
+    .inner-card-outer-img1 {
+        width: 43px;
+        height: 43px;
+    }
+    .inner-card-outer {
+        margin-top: 43px;
+        padding: 8px 8px;
+    }
+    .inner-card-btn-1 , .inner-card-btn-2{
+        font-size: 8px;
+        padding: 1px 10px;
+    }
+    .inner-card-btn-1 img , .inner-card-btn-2 img{
+        width: 10px;
+    }
+    .inner-card-btn-2 img{
+        width: 18px;
+    }
+    .card-img img {
+        width: 11rem;
+    }
+    .card-text-1 {
+        gap: 4rem;
+    }
+    .inner-card-text-1{
+        font-size: 13px;
+    }
+    .card-text-1 h1{
+        font-size: 20px;
+    }
+    .card-text-2 h4 {
+        font-size: 15px;
+    }
+    .card-text-2 p {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .inner-card-btns {
+        gap: 10px;
+    }
+    .card-text-3-btn button{
+        font-size: 8px;
+        padding: 13px 15px;
+    }
+    .card-text-3-text {
+        font-size: 10px;
+    }
+    .card-text-3{
+        margin-top: 37px;
+    }
+    .card-text-1-icons img{
+        width: 20px;
+    }
+    .card-text-3-text img{
+        width: 12px;
+    }
+    .card-text-3-text p{
+        font-size: 11px;
+    }
+}
 @media (max-width:380px) {
     .main-section-h1{
         font-size: 22px;
@@ -633,6 +710,82 @@ a{
     }
     .main-section-inside{
         padding: 0 33px;
+    }
+    .card-outer {
+        width: 16rem;
+        height: 625px;
+        margin: 0px -0.5rem;
+    }
+    .inner-card-text-2 p{
+        font-size: 10px;
+    }
+    .text2{
+        font-size: 12px;
+    }
+    .text-1 {
+        gap: 2rem;
+    }
+    .inner-card-outer-img1{
+        width: 20px;
+    }
+    .inner-card-outer-img1 {
+        width: 43px;
+        height: 43px;
+    }
+    .inner-card-outer {
+        margin-top: 43px;
+        padding: 8px 8px;
+    }
+    .inner-card-btn-1 , .inner-card-btn-2{
+        font-size: 8px;
+        padding: 1px 10px;
+    }
+    .inner-card-btn-1 img , .inner-card-btn-2 img{
+        width: 10px;
+    }
+    .inner-card-btn-2 img{
+        width: 18px;
+    }
+    .card-img img {
+        width: 11rem;
+    }
+    .card-text-1 {
+        gap: 4rem;
+    }
+    .inner-card-text-1{
+        font-size: 13px;
+    }
+    .card-text-1 h1{
+        font-size: 20px;
+    }
+    .card-text-2 h4 {
+        font-size: 15px;
+    }
+    .card-text-2 p {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .inner-card-btns {
+        gap: 10px;
+    }
+    .card-text-3-btn button{
+        font-size: 8px;
+        padding: 13px 15px;
+    }
+    .card-text-3-text {
+        font-size: 10px;
+    }
+    .card-text-3{
+        margin-top: 37px;
+    }
+    .card-text-1-icons img{
+        width: 20px;
+    }
+    .card-text-3-text img{
+        width: 12px;
+    }
+    .card-text-3-text p{
+        font-size: 11px;
     }
 }
 /* Nav End */
